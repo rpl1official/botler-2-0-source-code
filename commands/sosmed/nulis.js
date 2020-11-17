@@ -1,7 +1,6 @@
 const { MessageEmbed, Client } = require("discord.js");
 const sendError = require("../../util/error");
 const get = require('got');
-const fetch = require('node-fetch');
 const client = new Client();
 
 module.exports = {
